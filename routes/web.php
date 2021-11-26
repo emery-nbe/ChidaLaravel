@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [IndexController::class, 'index']);
+Route::get('/index', [IndexController::class, 'index']);
+Route::get('/connexion', [IndexController::class, 'connexion']);

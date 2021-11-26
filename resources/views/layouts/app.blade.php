@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link href="{{asset('css/animate.min.css')}}" rel="stylesheet">
+
+    <link rel="stylesheet" @yield('other-style')>
 </head>
 <body>
     @include('components.header')
