@@ -22,6 +22,7 @@
                 <ul>
                     <li><a href="index"><button class="btn-nav btn-home"></button></a></li>
                     <li><a href="connexion"><button class="btn-nav btn-person"></button></a></li>
+                    <li><a href="create_product"><button class="btn-nav btn-market"><span id="counter"></span></button></a></li>
                     <li><a href="command"><button class="btn-nav btn-market"><span id="counter"></span></button></a></li>
                 </ul>
             </div>
